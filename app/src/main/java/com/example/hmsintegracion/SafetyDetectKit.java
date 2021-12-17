@@ -166,7 +166,7 @@ public class SafetyDetectKit extends AppCompatActivity implements View.OnClickLi
                         }
                     }
                 }else{
-                    Log.e(TAG,"getMaliciousAppsList failed: "+maliciousAppsListResp.getErrorReason());
+                    Log.e(TAG,"getMaliciousAppsList failed : "+maliciousAppsListResp.getErrorReason());
                 }
             }
         }).addOnFailureListener(new OnFailureListener() {
