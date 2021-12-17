@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="335dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="40dp"
+        android:text="PUSH KIT , Genera Token"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="335dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="48dp"
+        android:text="BANNER"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+      <Button
+          android:id="@+id/button7"
+          android:layout_width="335dp"
+          android:layout_height="47dp"
+          android:layout_marginTop="32dp"
+          android:text="SAFETY DETECT"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.473"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/button6" />
+
+      <Button
+          android:id="@+id/button8"
+          android:layout_width="335dp"
+          android:layout_height="47dp"
+          android:layout_marginTop="28dp"
+          android:text="SCAN KIT"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.473"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/button7" />
+
+      <Button
+          android:id="@+id/button9"
+          android:layout_width="335dp"
+          android:layout_height="47dp"
+          android:layout_marginTop="28dp"
+          android:text="REMOTE CONFIG"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.473"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/button8" />
+
+      <Button
+          android:id="@+id/button4"
+          android:layout_width="335dp"
+          android:layout_height="47dp"
+          android:layout_marginTop="24dp"
+          android:text="account"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.473"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/button9" />
+
+      <TextView
+          android:id="@+id/textView5"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="36dp"
+          android:layout_marginTop="32dp"
+          android:text="TOKEN:"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/button1" />
+
+      <TextView
+          android:id="@+id/textView6"
+          android:layout_width="266dp"
+          android:layout_height="20dp"
+          android:layout_marginTop="32dp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.213"
+          app:layout_constraintStart_toEndOf="@+id/textView5"
+          app:layout_constraintTop_toBottomOf="@+id/button1" />
+
+      <Button
+          android:id="@+id/button"
+          android:layout_width="337dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="40dp"
+          android:text="LOCATION,SITE y MAPS"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+  </androidx.constraintlayout.widget.ConstraintLayout>

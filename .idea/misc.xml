@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/HMSIntegracion/app/src/main/res/layout/activity_account_kit.xml" value="0.26614583333333336" />
+        <entry key="..\:/AndroidStudioProjects/HMSIntegracion/app/src/main/res/layout/activity_adskit.xml" value="0.1641337386018237" />
+        <entry key="..\:/AndroidStudioProjects/HMSIntegracion/app/src/main/res/layout/activity_main.xml" value="0.2667572463768116" />
+        <entry key="..\:/AndroidStudioProjects/HMSIntegracion/app/src/main/res/layout/activity_map_kit.xml" value="0.2545289855072464" />
+        <entry key="..\:/AndroidStudioProjects/HMSIntegracion/app/src/main/res/layout/activity_safety_detect_kit.xml" value="0.2798913043478261" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

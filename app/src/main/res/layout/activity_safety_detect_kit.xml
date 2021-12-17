@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SafetyDetectKit">
+
+    <TextView
+        android:id="@+id/textViewWifi"
+        android:layout_width="346dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonW1" />
+
+    <TextView
+        android:id="@+id/textViewWifi2"
+        android:layout_width="346dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.446"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonW2" />
+
+    <TextView
+        android:id="@+id/textViewWifi3"
+        android:layout_width="346dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonW" />
+
+    <Button
+        android:id="@+id/buttonW1"
+        android:layout_width="343dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="44dp"
+        android:text="DETECTA ESTADO DE WIFI"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonW"
+        android:layout_width="343dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="48dp"
+        android:text="VALIDA URL"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewWifi" />
+
+    <Button
+        android:id="@+id/buttonW2"
+        android:layout_width="343dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="36dp"
+        android:text="CHECK APPS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewWifi3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
